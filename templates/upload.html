@@ -8,18 +8,5 @@
       <form action="http://127.0.0.1:5000/files">
          <input type="submit" value="Go to files" />
       </form>
-         <table>
-          <thead>
-            <tr>
-                <th>No. Files</th>
-            </tr>
-          </thead>
-          {% for sample in responses %}
-            <tr>
-                <th>{{sample.id}}</th>
-                <th></th>
-            </tr>
-          {% endfor %}
-      </table>
    </body>
 </html>
