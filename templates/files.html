@@ -1,0 +1,18 @@
+<html>
+   <body>
+      <table>
+          <thead>
+            <tr>
+                <th>Plaintiff</th>
+                <th>Defendant</th>
+            </tr>
+          </thead>
+          {% for sample in responses %}
+            <tr>
+                <th>{{sample.plaintiff}}</th>
+                <th>{{sample.defendant}}</th>
+            </tr>
+          {% endfor %}
+      </table>
+   </body>
+</html>
